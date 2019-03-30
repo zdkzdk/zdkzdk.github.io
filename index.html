@@ -10,7 +10,19 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>与人为善&&教学相长</title>
+    <style>
+        #test{
+            position:fixed;
+            top: 15%;
+            padding-left: 0px;
+            padding-right: 5px;
+        }
+        #test div{
+            text-align: center;
+        }
 
+
+    </style>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,7 +37,30 @@
 </head>
 
 <body>
-
+<div class="container-fluid">
+    <div id="test" class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">ZDK</h3>
+            </div>
+            <div class="panel-heading">
+                <h3 class="panel-title">学习中……</h3>
+            </div>
+            <div class="panel-body">
+                <span class="label label-default">Resume:</span><br/>
+                <span class="label label-primary">Shipbuilding And Oceanography Engineering</span><br/>
+                <span class="label label-warning">Real Estate</span><br/>
+                <span class="label label-success">Jewelry</span><br/>
+            </div>
+            <div class="panel-footer">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                    打赏
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
 
     <!--导航栏-->
@@ -46,32 +81,9 @@
     <!-- Jumbotron -->
     <div class="jumbotron">
         <div class="row">
-            <!--左侧的作者栏-->
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">ZDK</h3>
-                    </div>
-                    <div class="panel-heading">
-                        <h3 class="panel-title">学习中……</h3>
-                    </div>
-                    <div class="panel-body">
-                        <span class="label label-default">Resume:</span><br/>
-                        <span class="label label-primary">Shipbuilding And Oceanography Engineering</span><br/>
-                        <span class="label label-warning">Real Estate</span><br/>
-                        <span class="label label-success">Jewelry</span><br/>
-                    </div>
-                    <div class="panel-footer">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
-                            打赏
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!--作者栏结束-->
+
             <!--右侧作者栏和网站说明 align-->
-            <div class="col-md-8">
+
                 <!--carousel-->
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -133,7 +145,7 @@
                 <p><a class="btn btn-lg btn-success" href="#" role="button">直接进入文章页面</a></p>
                 <!--网站说明ended-->
 
-            </div>
+
             <!--右侧作者栏和网站说明align  ended -->
         </div>
 
