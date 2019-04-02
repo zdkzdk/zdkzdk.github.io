@@ -12,13 +12,15 @@
 
     <title>与人为善&&教学相长</title>
     <style>
-        #test{
-            position:fixed;
+        #test {
+            position: fixed;
             top: 15%;
             padding-left: 0px;
-            padding-right: 5px;
+            padding-right: 15px;
+            z-index: -1;
         }
-        #test div{
+
+        #test div {
             text-align: center;
         }
 
@@ -37,30 +39,7 @@
 </head>
 
 <body>
-<div class="container-fluid">
-    <div id="test" class="col-md-2">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">ZDK</h3>
-            </div>
-            <div class="panel-heading">
-                <h3 class="panel-title">学习中……</h3>
-            </div>
-            <div class="panel-body">
-                <span class="label label-default">Resume:</span><br/>
-                <span class="label label-primary">Shipbuilding And Oceanography Engineering</span><br/>
-                <span class="label label-warning">Real Estate</span><br/>
-                <span class="label label-success">Jewelry</span><br/>
-            </div>
-            <div class="panel-footer">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
-                    打赏
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="container">
 
     <!--导航栏-->
@@ -78,76 +57,115 @@
         </nav>
     </div>
     <!--导航栏ended-->
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-        <div class="row">
+</div>
 
-            <!--右侧作者栏和网站说明 align-->
 
-                <!--carousel-->
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <h1>WELCOME TO ZDK'Blog!</h1>
-                            <div class="carousel-caption">
-                                与人为善
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h1>WELCOME TO My Blog!</h1>
-                            <div class="carousel-caption">
-                                教学相长
-                            </div>
-                        </div>
-                        ...
+<div class="container-fluid">
+    <div class="row">
+        <!--作者栏 开始-->
+        <div class="col-md-2">
+            <div id="test">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">ZDK</h3>
                     </div>
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <!--carousel ended-->
-                    <!--carousel结束-->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">学习中……</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="label label-default">Resume:</span><br/>
+                        <span class="label label-primary">Shipbuilding And Oceanography Engineering</span><br/>
+                        <span class="label label-warning">Real Estate</span><br/>
+                        <span class="label label-success">Jewelry</span><br/>
+                    </div>
+                    <div class="panel-footer">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                            打赏
+                        </button>
+                    </div>
                 </div>
-                <!--网站说明-->
-                <p class="lead">
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <h4 class="list-group-item-heading">
-                            本人编程菜鸟，希望将学习过程中的一些见解和思考分享给大家，与人为善&&教学相长
-                        </h4>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="list-group-item-heading">本人英语只有6级水平且多年不用，为了提高英语水平，
-                            blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了，大家遇到不会的单词，也可以记下来加深印象
-                        </h4>
-                    </li>
-                    <li class="list-group-item">
-                        <h4 class="list-group-item-heading">
-                            绝大多数情况下，多人共同求解的效率大于个人摸索，
-                            如果大家有啥问题或者疑问，可以通过留言&nbsp;||&nbsp;email&nbsp;||&nbsp;微信的方式联系我，或许一个(请求-响应)对话提供的灵感就能解决一个疑惑
-                        </h4>
-                    </li>
-                </ul>
-                </p>
-                <p><a class="btn btn-lg btn-success" href="#" role="button">直接进入文章页面</a></p>
-                <!--网站说明ended-->
-            <!--右侧作者栏和网站说明align  ended -->
+            </div>
         </div>
-    </div>
+        <!--作者栏 结束-->
 
+        <!-- Jumbotron -->
+        <div class="col-md-8  ">
+            <div class="jumbotron ">
+                <div class="row ">
+
+                    <!--右侧作者栏和网站说明 align-->
+
+                    <!--carousel-->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <h1>WELCOME TO ZDK'Blog!</h1>
+                                <div class="carousel-caption">
+                                    与人为善
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h1>WELCOME TO My Blog!</h1>
+                                <div class="carousel-caption">
+                                    教学相长
+                                </div>
+                            </div>
+                            ...
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!--carousel ended-->
+                        <!--carousel结束-->
+                    </div>
+                    <!--网站说明-->
+                    <p class="lead">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">
+                                本人编程菜鸟，希望将学习过程中的一些见解和思考分享给大家，与人为善&&教学相长
+                            </h4>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">本人英语只有6级水平且多年不用，为了提高英语水平，
+                                blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了，大家遇到不会的单词，也可以记下来加深印象
+                            </h4>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">
+                                绝大多数情况下，多人共同求解的效率大于个人摸索，
+                                如果大家有啥问题或者疑问，可以通过留言&nbsp;||&nbsp;email&nbsp;||&nbsp;微信的方式联系我，或许一个(请求-响应)对话提供的灵感就能解决一个疑惑
+                            </h4>
+                        </li>
+                    </ul>
+                    </p>
+                    <p><a class="btn btn-lg btn-success" href="#" role="button">直接进入文章页面</a></p>
+                    <!--网站说明ended-->
+                    <!--右侧作者栏和网站说明align  ended -->
+                </div>
+            </div>
+        </div>
+        <!-- Jumbotron 结束-->
+    </div>
+</div>
+<div class="container">
     <!-- 文章推荐模块 -->
     <hr/>
     <h2>推荐文章：</h2>
@@ -179,11 +197,10 @@
     <footer class="footer">
         <p>&copy; 2019 ZDK, Inc.</p>
     </footer>
-
+    <!-- Site footer ended-->
 
     <!--模态框-->
     <!--打赏开始-->
-
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -203,7 +220,8 @@
     </div>
     <!--打赏结束-->
     <!--模态框结束-->
+</div>
 
-</div> <!-- /container -->
+
 </body>
 </html>
