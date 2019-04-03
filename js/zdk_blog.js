@@ -10,4 +10,5 @@ $(function () {
     $("#cwoc").click(function () {
         window.open("html/confusedWordOfSoftware.htm","_blank");
     })
+
 })

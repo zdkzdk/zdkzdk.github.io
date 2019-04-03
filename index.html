@@ -17,7 +17,7 @@
             top: 15%;
             padding-left: 0px;
             padding-right: 15px;
-            z-index: -1;
+
         }
 
         #test div {
@@ -27,13 +27,12 @@
     </style>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <link href="css/justified-nav.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/zdk_blog.js"></script>
+
 
 
 </head>
@@ -80,7 +79,7 @@
                     </div>
                     <div class="panel-footer">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                        <button id="ds" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
                             打赏
                         </button>
                     </div>
@@ -88,6 +87,30 @@
             </div>
         </div>
         <!--作者栏 结束-->
+
+        <!--模态框-->
+        <!--打赏开始-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/翡翠佛.jpg" class="img-responsive" alt="翡翠佛">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--打赏结束-->
+        <!--模态框结束-->
+
+
 
         <!-- Jumbotron -->
         <div class="col-md-8  ">
@@ -144,7 +167,7 @@
                             </h4>
                         </li>
                         <li class="list-group-item">
-                            <h4 class="list-group-item-heading">本人英语只有6级水平且多年不用，为了提高英语水平，
+                            <h4 class="list-group-item-heading">为了提高英语水平，
                                 blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了，大家遇到不会的单词，也可以记下来加深印象
                             </h4>
                         </li>
@@ -165,6 +188,9 @@
         <!-- Jumbotron 结束-->
     </div>
 </div>
+
+
+
 <div class="container">
     <!-- 文章推荐模块 -->
     <hr/>
@@ -199,27 +225,7 @@
     </footer>
     <!-- Site footer ended-->
 
-    <!--模态框-->
-    <!--打赏开始-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                    <img src="img/翡翠佛.jpg" class="img-responsive" alt="翡翠佛">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--打赏结束-->
-    <!--模态框结束-->
+
 </div>
 
 
