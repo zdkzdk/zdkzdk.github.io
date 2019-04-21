@@ -1,7 +1,7 @@
 $(function () {
     $("#article1").click(function () {
         //window.location.href = "html/容器.htm";
-        window.open("html/容器.htm","_blank");
+        window.open("html/web中的分页研究.htm","_blank");
     });
     $("#article2").click(function () {
         //window.location.href = "html/blog.html";
