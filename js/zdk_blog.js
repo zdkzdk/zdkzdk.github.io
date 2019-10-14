@@ -4,6 +4,7 @@ $(function () {
     id2UrlMap.set("article2","html/blog.html")
     id2UrlMap.set("cwoc","html/confusedWordOfSoftware.htm")
     id2UrlMap.set("articlePR","html/PageRank/pagerank.html")
+    id2UrlMap.set("articleWechatDev","html/wechat_dev/wechat_dev.htm")
     /*
     点击viewDetails按钮时的业务
      */
