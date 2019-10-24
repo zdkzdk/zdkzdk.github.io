@@ -7,6 +7,7 @@ $(function () {
     id2UrlMap.set("articleDateHandle","html/java中的时间处理/java中的时间处理.html")
     id2UrlMap.set("articleFrontSel","html\\前端框架技术栈的选择\\前端框架技术栈的选择.html")
     id2UrlMap.set("articleSpringdataJPA","html\\springdata-jpa\\springdata-jpa.html")
+    id2UrlMap.set("articleRest_Restful","html\\Rest&Restful\\Rest&Restful.html")
 
     /*
     点击viewDetails按钮时的业务
