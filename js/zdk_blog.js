@@ -8,6 +8,7 @@ $(function () {
     id2UrlMap.set("articleFrontSel","html\\前端框架技术栈的选择\\前端框架技术栈的选择.html")
     id2UrlMap.set("articleSpringdataJPA","html\\springdata-jpa\\springdata-jpa.html")
     id2UrlMap.set("articleRest_Restful","html\\Rest&Restful\\Rest&Restful.html")
+    id2UrlMap.set("articleWechatDev","html/wechat_dev/wechat_dev.html")
 
     /*
     点击viewDetails按钮时的业务
