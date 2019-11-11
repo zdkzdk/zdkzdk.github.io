@@ -9,6 +9,7 @@ $(function () {
     id2UrlMap.set("articleSpringdataJPA","html\\springdata-jpa\\springdata-jpa.html")
     id2UrlMap.set("articleRest_Restful","html\\Rest&Restful\\Rest&Restful.html")
     id2UrlMap.set("articleWechatDev","html/wechat_dev/wechat_dev.html")
+    id2UrlMap.set("articleTran","html/对hadoop官方文档中完全分布式搭建和HA部分的翻译/对hadoop官方文档中完全分布式搭建和HA部分的翻译.html")
 
     /*
     点击viewDetails按钮时的业务

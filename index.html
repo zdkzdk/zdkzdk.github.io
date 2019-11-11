@@ -170,8 +170,9 @@
                             </h4>
                         </li>
                         <li class="list-group-item">
-                            <h4 class="list-group-item-heading">为了提高英语水平，
-                                blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了，大家遇到不会的单词，也可以记下来加深印象
+                            <h4 class="list-group-item-heading">
+                                为了提高英语水平，
+                                blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了
                             </h4>
                         </li>
                         <li class="list-group-item">
@@ -183,9 +184,9 @@
                         <li class="list-group-item">
                             <h4 class="list-group-item-heading">
                                 为什么不用markdown？</br>
-                                虽然md有现成的解决方案，但实在接受不了md的手动标题系统，对表格、图片极其的不友好。</br>
+                                虽然md有现成的blog 解决方案，但实在接受不了md的手动标题系统；段落之间的间距过大，调整起来麻烦；对表格、图片极其的不友好。</br>
                                 个人觉得md适合写普通的非技术文章，适合移动端。
-                                但如果写严肃的、结构严谨复杂的技术文章甚至是学术论文，word完善的生态系统，对文字处理市场的垄断，口碑，强大的功能都完爆md。
+                                但如果写严肃的、篇幅较长、结构严谨复杂的技术文章甚至是学术论文，word完善的生态系统，对文字处理市场的垄断，口碑，强大的功能都完爆md。
                             </h4>
                         </li>
                     </ul>
@@ -203,9 +204,38 @@
 
 <div class="container" id="recommend">
     <!-- 文章推荐模块 -->
+
+    <hr/>
+    <h3 style="color: chocolate">置顶：</h3>
+
+    <div class="row">
+        <div class="col-lg-4 recommend-block">
+            <h2>Confused Words Of Coding</h2>
+            <p class="text-primary">coding过程中遇到的一些易混淆的words</p>
+            <p><a class="btn btn-primary viewDetails" href="#" role="button" id="cwoc">View details &raquo;</a></p>
+        </div>
+    </div>
     <hr/>
     <h2>推荐文章：</h2>
-    <hr/>
+    <!--大数据-->
+    <div class="row">
+        <div class="col-lg-4 recommend-block">
+            <h2>pageRank的研究和case</h2>
+            <p class="text-danger">google的pageRank算法的来源、背景、原理和基于mapreduce的实现进行了详细的分析，提供代码，有详尽的注释</br>
+                <a href="https://github.com/zdkzdk/simple_function_exercise/tree/master/mapreduce_examples/pagerank">
+                    <h3>代码位置</h3></a>
+            </p>
+            <p><a class="btn btn-primary viewDetails" href="#" role="button" id="articlePR">View details &raquo;</a>
+            </p>
+        </div>
+        <div class="col-lg-4 recommend-block">
+            <h2>对hadoop官方文档中完全分布式搭建和HA部分的翻译</h2>
+            <p class="text-danger">官方文档中的描述实际上比百度上绝大多数的博客写的要好，很全面，所以把集群配置、安全模式、HA部分翻译一下</p>
+            <p><a class="btn btn-primary viewDetails" href="#" role="button" id="articleTran">View details &raquo;</a>
+            </p>
+        </div>
+    </div>
+    <!--javaweb文章-->
     <div class="row">
         <div class="col-lg-4 recommend-block">
             <h2>SpringdataJPA</h2>
@@ -259,50 +289,37 @@
             <p><a class="btn btn-primary viewDetails" href="#" role="button" id="articleWechatDev">View details
                 &raquo;</a></p>
         </div>
-        <div class="row">
-            <div class="col-lg-4 recommend-block">
-                <h2>pageRank的研究和case</h2>
-                <p class="text-danger">google的pageRank算法的来源、背景、原理和基于mapreduce的实现进行了详细的分析，提供代码，有详尽的注释</br>
-                    <a href="https://github.com/zdkzdk/simple_function_exercise/tree/master/mapreduce_examples/pagerank">
-                        <h3>代码位置</h3></a>
-                </p>
-                <p><a class="btn btn-primary viewDetails" href="#" role="button" id="articlePR">View details &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4 recommend-block">
-                <h2>web中的分页研究</h2>
-                <p class="text-danger">本文阐述了作者对分页的理解，套用OOP按功能设计的思想，将分页划分为分页逻辑，页面设计，数据封装，Model层实现，sql编写5部分。并逐一进行分析。</p>
-                <p>
+    </div>
+    <div class="row">
 
-                    分析按照src(功能的场景和意义)，comprehending(理解，用已有知识解释并落实到场景中)，usage(使用，API的学习)进行划分
-                </p>
-                <p><a class="btn btn-primary viewDetails" href="#" role="button" id="article1">View details &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4 recommend-block" style="height: 300px;">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                    mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-primary viewDetails" href="#" role="button" id="article2">View details &raquo;</a>
-                </p>
-            </div>
+        <div class="col-lg-4 recommend-block">
+            <h2>web中的分页研究</h2>
+            <p class="text-danger">本文阐述了作者对分页的理解，套用OOP按功能设计的思想，将分页划分为分页逻辑，页面设计，数据封装，Model层实现，sql编写5部分。并逐一进行分析。</p>
+            <p>
+
+                分析按照src(功能的场景和意义)，comprehending(理解，用已有知识解释并落实到场景中)，usage(使用，API的学习)进行划分
+            </p>
+            <p><a class="btn btn-primary viewDetails" href="#" role="button" id="article1">View details &raquo;</a>
+            </p>
         </div>
-        <div class="row">
-            <div class="col-lg-4 recommend-block">
-                <h2>Confused Words Of Coding</h2>
-                <p class="text-primary">coding过程中遇到的一些易混淆的words</p>
-                <p><a class="btn btn-primary viewDetails" href="#" role="button" id="cwoc">View details &raquo;</a></p>
-            </div>
+        <div class="col-lg-4 recommend-block" style="height: 300px;">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-primary viewDetails" href="#" role="button" id="article2">View details &raquo;</a>
+            </p>
         </div>
     </div>
 
-    <!-- Site footer -->
-    <footer class="footer">
-        <p>&copy; 2019 ZDK, Inc.</p>
-    </footer>
-    <!-- Site footer ended-->
+</div>
+
+<!-- Site footer -->
+<footer class="footer">
+    <p>&copy; 2019 ZDK, Inc.</p>
+</footer>
+<!-- Site footer ended-->
 
 
 </div>
