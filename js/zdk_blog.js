@@ -10,6 +10,9 @@ $(function () {
     id2UrlMap.set("articleRest_Restful","html\\Rest&Restful\\Rest&Restful.html")
     id2UrlMap.set("articleWechatDev","html/wechat_dev/wechat_dev.html")
     id2UrlMap.set("articleTran","html/对hadoop官方文档中完全分布式搭建和HA部分的翻译/对hadoop官方文档中完全分布式搭建和HA部分的翻译.html")
+    id2UrlMap.set("articleHadoopHA","html/hadoopHA的搭建_0/hadoopHA的搭建_0.html")
+    id2UrlMap.set("articleHadoopBuild","html/hadoop集群非HA非安全模式的搭建_0/hadoop集群非HA非安全模式的搭建_0.html")
+    id2UrlMap.set("articleVMStandard","html/克隆模板虚拟机的设置_0/克隆模板虚拟机的设置_0.html")
 
     /*
     点击viewDetails按钮时的业务
