@@ -14,6 +14,7 @@ $(function () {
     id2UrlMap.set("articleHadoopBuild","html/hadoop集群非HA非安全模式的搭建_0/hadoop集群非HA非安全模式的搭建_0.html")
     id2UrlMap.set("articleVMStandard","html/克隆模板虚拟机的设置_0/克隆模板虚拟机的设置_0.html")
     id2UrlMap.set("articleHive","html/hive的窗口函数、排名函数、lve/hive的窗口函数、排名函数、lve.html")
+    id2UrlMap.set("articleHiveTY","html/hive调优/hive调优.html")
 
     /*
     点击viewDetails按钮时的业务
