@@ -15,6 +15,7 @@ $(function () {
     id2UrlMap.set("articleVMStandard","html/克隆模板虚拟机的设置_0/克隆模板虚拟机的设置_0.html")
     id2UrlMap.set("articleHive","html/hive的窗口函数、排名函数、lve/hive的窗口函数、排名函数、lve.html")
     id2UrlMap.set("articleHiveTY","html/hive调优/hive调优.html")
+    id2UrlMap.set("articleHDFS1","html/hdfs存储原理和读写流程/hdfs存储原理和读写流程.html")
 
     /*
     点击viewDetails按钮时的业务
