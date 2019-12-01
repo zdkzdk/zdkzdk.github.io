@@ -18,7 +18,8 @@ $(function () {
     id2UrlMap.set("articleHDFS1","html/hdfs存储原理和读写流程/hdfs存储原理和读写流程.html")
     id2UrlMap.set("articleSpark1","html/spark源码分析-集群启动/spark源码分析-集群启动.html")
     id2UrlMap.set("articleSpark2","html/spark源码分析-client提交sparkApp/spark源码分析-client提交sparkApp.html")
-    id2UrlMap.set("articleSpark3","html/spark源码分析-资源调度，driver的TS向master申请资源/spark源码分析-资源调度，driver的TS向master申请资源.html")
+    id2UrlMap.set("articleSpark3","html/spark源码分析-资源调度/spark源码分析-资源调度.html")
+    id2UrlMap.set("articleSpark4","html/spark源码分析-任务调度/spark源码分析-任务调度.html")
 
     /*
     点击viewDetails按钮时的业务
