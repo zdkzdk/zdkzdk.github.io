@@ -20,6 +20,7 @@ $(function () {
     id2UrlMap.set("articleSpark2","html/spark源码分析-client提交sparkApp/spark源码分析-client提交sparkApp.html")
     id2UrlMap.set("articleSpark3","html/spark源码分析-资源调度/spark源码分析-资源调度.html")
     id2UrlMap.set("articleSpark4","html/spark源码分析-任务调度/spark源码分析-任务调度.html")
+    id2UrlMap.set("articleKafkaSparkStreaming","html/kafka同SparkStreaming的整合/kafka同SparkStreaming的整合.html")
 
     /*
     点击viewDetails按钮时的业务
